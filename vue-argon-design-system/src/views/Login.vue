@@ -29,7 +29,7 @@
 
                                 <base-button type="neutral">
                                     <img slot="icon" src="img/icons/common/google.svg">
-                                    Google
+                                    WeChat
                                 </base-button>
                             </div>
                         </template>
@@ -40,7 +40,7 @@
                             <form role="form">
                                 <base-input alternative
                                             class="mb-3"
-                                            placeholder="Email"
+                                            placeholder="ID"
                                             addon-left-icon="ni ni-email-83">
                                 </base-input>
                                 <base-input alternative
@@ -52,7 +52,7 @@
                                     Remember me
                                 </base-checkbox>
                                 <div class="text-center">
-                                    <base-button type="primary" class="my-4">Sign In</base-button>
+                                    <router-link to="/components"><base-button type="primary" class="my-4">Sign In</base-button></router-link>
                                 </div>
                             </form>
                         </template>
@@ -64,8 +64,8 @@
                             </a>
                         </div>
                         <div class="col-6 text-right">
-                            <a href="#" class="text-light">
-                                <small>Create new account</small>
+                            <a href="#">
+                                <router-link to="/register"  class="text-light"><small>Create new account</small></router-link>
                             </a>
                         </div>
                     </div>
