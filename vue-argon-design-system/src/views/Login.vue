@@ -23,13 +23,13 @@
                             </div>
                             <div class="btn-wrapper text-center">
                                 <base-button type="neutral">
-                                    <img slot="icon" src="img/icons/common/github.svg">
-                                    Github
+                                    <img slot="icon" src="img/icons/common/wechat.svg">
+                                    WeChat
                                 </base-button>
 
                                 <base-button type="neutral">
-                                    <img slot="icon" src="img/icons/common/google.svg">
-                                    WeChat
+                                    <img slot="icon" src="img/icons/common/github.svg">
+                                    Github
                                 </base-button>
                             </div>
                         </template>
@@ -41,7 +41,7 @@
                                 <base-input alternative
                                             class="mb-3"
                                             placeholder="ID"
-                                            addon-left-icon="ni ni-email-83">
+                                            addon-left-icon="ni ni-single-02">
                                 </base-input>
                                 <base-input alternative
                                             type="password"
