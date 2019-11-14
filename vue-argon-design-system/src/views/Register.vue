@@ -23,13 +23,13 @@
                             </div>
                             <div class="btn-wrapper text-center">
                                 <base-button type="neutral">
-                                    <img slot="icon" src="img/icons/common/github.svg">
-                                    Github
+                                    <img slot="icon" src="img/icons/common/wechat.svg">
+                                    WeChat
                                 </base-button>
 
                                 <base-button type="neutral">
-                                    <img slot="icon" src="img/icons/common/google.svg">
-                                    Google
+                                    <img slot="icon" src="img/icons/common/github.svg">
+                                    Github
                                 </base-button>
                             </div>
                         </template>
