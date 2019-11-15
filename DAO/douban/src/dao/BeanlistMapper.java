@@ -1,17 +1,10 @@
 package dao;
 
-import object.Beanlist;
+import object.BeanList;
 
-public interface BeanlistMapper {
-    int deleteByPrimaryKey(Integer beanlistid);
-
-    int insert(Beanlist record);
-
-    int insertSelective(Beanlist record);
-
-    Beanlist selectByPrimaryKey(Integer beanlistid);
-
-    int updateByPrimaryKeySelective(Beanlist record);
-
-    int updateByPrimaryKey(Beanlist record);
+public interface BeanListDao {
+    int delete(Integer beanlistid);
+    int insert(BeanList beanlist);
+    BeanList search(Integer beanlistid);
+    int update(BeanList beanlist);
 }
