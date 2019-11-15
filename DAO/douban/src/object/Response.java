@@ -3,53 +3,53 @@ package object;
 import java.util.Date;
 
 public class Response {
-    private Integer responseid;
+    private Integer responseID;
 
-    private Integer userid;
+    private Integer userID;
 
-    private Integer discussid;
+    private Integer discussID;
 
-    private Date responsetime;
+    private Date responseTime;
 
-    private String responsecontent;
+    private String responseContent;
 
-    public Integer getResponseid() {
-        return responseid;
+    public Integer getResponseID() {
+        return responseID;
     }
 
-    public void setResponseid(Integer responseid) {
-        this.responseid = responseid;
+    public void setResponseID(Integer responseID) {
+        this.responseID = responseID;
     }
 
-    public Integer getUserid() {
-        return userid;
+    public Integer getUserID() {
+        return userID;
     }
 
-    public void setUserid(Integer userid) {
-        this.userid = userid;
+    public void setUserID(Integer userID) {
+        this.userID = userID;
     }
 
-    public Integer getDiscussid() {
-        return discussid;
+    public Integer getDiscussID() {
+        return discussID;
     }
 
-    public void setDiscussid(Integer discussid) {
-        this.discussid = discussid;
+    public void setDiscussID(Integer discussID) {
+        this.discussID = discussID;
     }
 
-    public Date getResponsetime() {
-        return responsetime;
+    public Date getResponseTime() {
+        return responseTime;
     }
 
-    public void setResponsetime(Date responsetime) {
-        this.responsetime = responsetime;
+    public void setResponseTime(Date responseTime) {
+        this.responseTime = responseTime;
     }
 
-    public String getResponsecontent() {
-        return responsecontent;
+    public String getResponseContent() {
+        return responseContent;
     }
 
-    public void setResponsecontent(String responsecontent) {
-        this.responsecontent = responsecontent == null ? null : responsecontent.trim();
+    public void setResponseContent(String responseContent) {
+        this.responseContent = responseContent == null ? null : responseContent.trim();
     }
 }

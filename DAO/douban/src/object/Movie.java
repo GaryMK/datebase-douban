@@ -1,16 +1,16 @@
 package object;
 
 public class Movie {
-    private Integer movieid;
+    private Integer movieID;
 
     private String imdb;
 
-    public Integer getMovieid() {
-        return movieid;
+    public Integer getMovieID() {
+        return movieID;
     }
 
-    public void setMovieid(Integer movieid) {
-        this.movieid = movieid;
+    public void setMovieID(Integer movieID) {
+        this.movieID = movieID;
     }
 
     public String getImdb() {

@@ -1,23 +1,23 @@
 package object;
 
 public class MovieWithBLOBs extends Movie {
-    private String movieintroduce;
+    private String movieIntroduce;
 
-    private String officialwebsite;
+    private String officialWebsite;
 
-    public String getMovieintroduce() {
-        return movieintroduce;
+    public String getMovieIntroduce() {
+        return movieIntroduce;
     }
 
-    public void setMovieintroduce(String movieintroduce) {
-        this.movieintroduce = movieintroduce == null ? null : movieintroduce.trim();
+    public void setMovieIntroduce(String movieIntroduce) {
+        this.movieIntroduce = movieIntroduce == null ? null : movieIntroduce.trim();
     }
 
-    public String getOfficialwebsite() {
-        return officialwebsite;
+    public String getOfficialWebsite() {
+        return officialWebsite;
     }
 
-    public void setOfficialwebsite(String officialwebsite) {
-        this.officialwebsite = officialwebsite == null ? null : officialwebsite.trim();
+    public void setOfficialWebsite(String officialWebsite) {
+        this.officialWebsite = officialWebsite == null ? null : officialWebsite.trim();
     }
 }

@@ -1,23 +1,23 @@
 package object;
 
 public class Contain {
-    private String moviename;
+    private String movieName;
 
-    private Integer movieid;
+    private Integer movieID;
 
-    public String getMoviename() {
-        return moviename;
+    public String getMovieName() {
+        return movieName;
     }
 
-    public void setMoviename(String moviename) {
-        this.moviename = moviename == null ? null : moviename.trim();
+    public void setMovieName(String movieName) {
+        this.movieName = movieName == null ? null : movieName.trim();
     }
 
-    public Integer getMovieid() {
-        return movieid;
+    public Integer getMovieID() {
+        return movieID;
     }
 
-    public void setMovieid(Integer movieid) {
-        this.movieid = movieid;
+    public void setMovieID(Integer movieID) {
+        this.movieID = movieID;
     }
 }

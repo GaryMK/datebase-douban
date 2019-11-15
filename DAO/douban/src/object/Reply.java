@@ -1,43 +1,43 @@
 package object;
 
 public class Reply {
-    private Integer replyid;
+    private Integer replyID;
 
-    private Integer userid;
+    private Integer userID;
 
-    private Integer questionid;
+    private Integer questionID;
 
-    private String replycontent;
+    private String replyContent;
 
-    public Integer getReplyid() {
-        return replyid;
+    public Integer getReplyID() {
+        return replyID;
     }
 
-    public void setReplyid(Integer replyid) {
-        this.replyid = replyid;
+    public void setReplyID(Integer replyID) {
+        this.replyID = replyID;
     }
 
-    public Integer getUserid() {
-        return userid;
+    public Integer getUserID() {
+        return userID;
     }
 
-    public void setUserid(Integer userid) {
-        this.userid = userid;
+    public void setUserID(Integer userID) {
+        this.userID = userID;
     }
 
-    public Integer getQuestionid() {
-        return questionid;
+    public Integer getQuestionID() {
+        return questionID;
     }
 
-    public void setQuestionid(Integer questionid) {
-        this.questionid = questionid;
+    public void setQuestionID(Integer questionID) {
+        this.questionID = questionID;
     }
 
-    public String getReplycontent() {
-        return replycontent;
+    public String getReplyContent() {
+        return replyContent;
     }
 
-    public void setReplycontent(String replycontent) {
-        this.replycontent = replycontent == null ? null : replycontent.trim();
+    public void setReplyContent(String replyContent) {
+        this.replyContent = replyContent == null ? null : replyContent.trim();
     }
 }

@@ -3,53 +3,53 @@ package object;
 import java.util.Date;
 
 public class Discuss {
-    private Integer discussid;
+    private Integer discussID;
 
-    private Integer userid;
+    private Integer userID;
 
-    private Integer movieid;
+    private Integer movieID;
 
-    private Date begintime;
+    private Date beginTime;
 
-    private String discusstitle;
+    private String discussTitle;
 
-    public Integer getDiscussid() {
-        return discussid;
+    public Integer getDiscussID() {
+        return discussID;
     }
 
-    public void setDiscussid(Integer discussid) {
-        this.discussid = discussid;
+    public void setDiscussID(Integer discussID) {
+        this.discussID = discussID;
     }
 
-    public Integer getUserid() {
-        return userid;
+    public Integer getUserID() {
+        return userID;
     }
 
-    public void setUserid(Integer userid) {
-        this.userid = userid;
+    public void setUserID(Integer userID) {
+        this.userID = userID;
     }
 
-    public Integer getMovieid() {
-        return movieid;
+    public Integer getMovieID() {
+        return movieID;
     }
 
-    public void setMovieid(Integer movieid) {
-        this.movieid = movieid;
+    public void setMovieID(Integer movieID) {
+        this.movieID = movieID;
     }
 
-    public Date getBegintime() {
-        return begintime;
+    public Date getBeginTime() {
+        return beginTime;
     }
 
-    public void setBegintime(Date begintime) {
-        this.begintime = begintime;
+    public void setBeginTime(Date beginTime) {
+        this.beginTime = beginTime;
     }
 
-    public String getDiscusstitle() {
-        return discusstitle;
+    public String getDiscussTitle() {
+        return discussTitle;
     }
 
-    public void setDiscusstitle(String discusstitle) {
-        this.discusstitle = discusstitle == null ? null : discusstitle.trim();
+    public void setDiscussTitle(String discussTitle) {
+        this.discussTitle = discussTitle == null ? null : discussTitle.trim();
     }
 }
