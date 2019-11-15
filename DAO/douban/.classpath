@@ -6,7 +6,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/eclipse/eclipse-workspace/mysqlJDBC.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse/eclipse-workspace/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="I:/GitHub/datebase-douban/DAO/douban/lib/mysqlJDBC.jar"/>
+	<classpathentry kind="lib" path="I:/GitHub/datebase-douban/DAO/douban/lib/sqljdbc4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

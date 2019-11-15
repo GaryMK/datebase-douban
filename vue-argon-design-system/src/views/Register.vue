@@ -40,13 +40,8 @@
                             <form role="form">
                                 <base-input alternative
                                             class="mb-3"
-                                            placeholder="Name"
-                                            addon-left-icon="ni ni-hat-3">
-                                </base-input>
-                                <base-input alternative
-                                            class="mb-3"
-                                            placeholder="Email"
-                                            addon-left-icon="ni ni-email-83">
+                                            placeholder="Phone"
+                                            addon-left-icon="ni ni-mobile-button">
                                 </base-input>
                                 <base-input alternative
                                             type="password"
