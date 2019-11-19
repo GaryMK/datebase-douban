@@ -24,7 +24,12 @@
                     <router-link class="nav-link" to="/register">Register</router-link>
                 </li>
             </ul>
-            
+            <div class="navbar-main">
+                <base-input placeholder="Birthday"
+                                addon-right-icon="ni ni-zoom-split-in">
+                </base-input>
+            </div>
+
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="https://github.com/creativetimofficial/vue-argon-design-system"
