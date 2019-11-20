@@ -9,15 +9,15 @@ public class Belong {
         return movieID;
     }
 
-    public void setMovieid(Integer movieID) {
+    public void setMovieID(Integer movieID) {
         this.movieID = movieID;
     }
 
-    public String getTypename() {
+    public String getTypeName() {
         return typeName;
     }
 
-    public void setTypename(String typeName) {
+    public void setTypeName(String typeName) {
         this.typeName = typeName == null ? null : typeName.trim();
     }
 }

@@ -1,46 +1,46 @@
 package object;
 
-public class Usertable {
-    private Integer userid;
+public class UserTable {
+    private Integer userID;
 
-    private String username;
+    private String userName;
 
-    private String password;
+    private String passWord;
 
     private String call;
 
     private String email;
 
-    private String microblog;
+    private String microBlog;
 
-    private String wechat;
+    private String weChat;
 
-    private String nickname;
+    private String nickName;
 
     private String sex;
 
-    public Integer getUserid() {
-        return userid;
+    public Integer getUserID() {
+        return userID;
     }
 
-    public void setUserid(Integer userid) {
-        this.userid = userid;
+    public void setUserID(Integer userID) {
+        this.userID = userID;
     }
 
-    public String getUsername() {
-        return username;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUsername(String username) {
-        this.username = username == null ? null : username.trim();
+    public void setUserName(String userName) {
+        this.userName = userName == null ? null : userName.trim();
     }
 
-    public String getPassword() {
-        return password;
+    public String getPassWord() {
+        return passWord;
     }
 
-    public void setPassword(String password) {
-        this.password = password == null ? null : password.trim();
+    public void setPassWord(String passWord) {
+        this.passWord = passWord == null ? null : passWord.trim();
     }
 
     public String getCall() {
@@ -59,28 +59,28 @@ public class Usertable {
         this.email = email == null ? null : email.trim();
     }
 
-    public String getMicroblog() {
-        return microblog;
+    public String getMicroBlog() {
+        return microBlog;
     }
 
-    public void setMicroblog(String microblog) {
-        this.microblog = microblog == null ? null : microblog.trim();
+    public void setMicroBlog(String microBlog) {
+        this.microBlog = microBlog == null ? null : microBlog.trim();
     }
 
-    public String getWechat() {
-        return wechat;
+    public String getWeChat() {
+        return weChat;
     }
 
-    public void setWechat(String wechat) {
-        this.wechat = wechat == null ? null : wechat.trim();
+    public void setWeChat(String weChat) {
+        this.weChat = weChat == null ? null : weChat.trim();
     }
 
-    public String getNickname() {
-        return nickname;
+    public String getNickName() {
+        return nickName;
     }
 
-    public void setNickname(String nickname) {
-        this.nickname = nickname == null ? null : nickname.trim();
+    public void setNickName(String nickName) {
+        this.nickName = nickName == null ? null : nickName.trim();
     }
 
     public String getSex() {

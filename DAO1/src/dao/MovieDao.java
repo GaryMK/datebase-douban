@@ -1,7 +1,6 @@
 package dao;
 
 import object.Movie;
-import object.MovieWithBLOBs;
 
 public interface MovieDao {
 	int insert(Movie movie);
