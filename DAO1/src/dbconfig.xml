@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
 	<classname>com.microsoft.sqlserver.jdbc.SQLServerDriver</classname>
-	<url>jdbc:sqlserver://192.168.11.128:1433;databaseName=douban;user=aaa;password=aaa</url>
+	<url>jdbc:sqlserver://192.168.11.132:1433;databaseName=douban;user=aaa;password=aaa</url>
 	
 	
 	<!-- <classname>com.mysql.jdbc.Driver</classname>
