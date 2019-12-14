@@ -1,55 +1,55 @@
 package object;
 
-import java.util.Date;
+import java.sql.Date;
 
-public class Question {
-    private Integer questionid;
+public class Question{ 
+    private Integer questionID;
 
-    private Integer userid;
+    private Integer userID;
 
-    private Integer movieid;
+    private Integer movieID;
 
-    private Date begintime;
+    private Date beginTime;
 
-    private String questiontitle;
+    private String questionTitle;
 
-    public Integer getQuestionid() {
-        return questionid;
+    public Integer getQuestionID() {
+        return questionID;
     }
 
-    public void setQuestionid(Integer questionid) {
-        this.questionid = questionid;
+    public void setQuestionID(Integer questionID) {
+        this.questionID = questionID;
     }
 
-    public Integer getUserid() {
-        return userid;
+    public Integer getUserID() {
+        return userID;
     }
 
-    public void setUserid(Integer userid) {
-        this.userid = userid;
+    public void setUserID(Integer userID) {
+        this.userID = userID;
     }
 
-    public Integer getMovieid() {
-        return movieid;
+    public Integer getMovieID() {
+        return movieID;
     }
 
-    public void setMovieid(Integer movieid) {
-        this.movieid = movieid;
+    public void setMovieID(Integer movieID) {
+        this.movieID = movieID;
     }
 
-    public Date getBegintime() {
-        return begintime;
+    public Date getBeginTime() {
+        return beginTime;
     }
 
-    public void setBegintime(Date begintime) {
-        this.begintime = begintime;
+    public void setBeginTime(Date beginTime) {
+        this.beginTime = beginTime;
     }
 
-    public String getQuestiontitle() {
-        return questiontitle;
+    public String getQuestionTitle() {
+        return questionTitle;
     }
 
-    public void setQuestiontitle(String questiontitle) {
-        this.questiontitle = questiontitle == null ? null : questiontitle.trim();
+    public void setQuestionTitle(String questionTitle) {
+        this.questionTitle = questionTitle == null ? null : questionTitle.trim();
     }
 }

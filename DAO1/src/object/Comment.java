@@ -1,56 +1,57 @@
 package object;
 
-import java.util.Date;
+//import java.util.Date;
+import java.sql.Date;
 
 public class Comment {
-    private Integer commentid;
+    private Integer commentID;
 
-    private Integer userid;
+    private Integer userID;
 
-    private Integer movieid;
+    private Integer movieID;
 
-    private Integer starlevel;
+    private Integer starLevel;
 
     private String device;
 
-    private Date commenttime;
+    private Date commentTime;
 
-    private String viewstatus;
+    private String viewStatus;
 
-    private Integer usefulnumber;
+    private Integer usefulNumber;
 
-    private String commentcontent;
+    private String commentContent;
 
-    public Integer getCommentid() {
-        return commentid;
+    public Integer getCommentID() {
+        return commentID;
     }
 
-    public void setCommentid(Integer commentid) {
-        this.commentid = commentid;
+    public void setCommentID(Integer commentID) {
+        this.commentID = commentID;
     }
 
-    public Integer getUserid() {
-        return userid;
+    public Integer getUserID() {
+        return userID;
     }
 
-    public void setUserid(Integer userid) {
-        this.userid = userid;
+    public void setUserID(Integer userID) {
+        this.userID = userID;
     }
 
-    public Integer getMovieid() {
-        return movieid;
+    public Integer getMovieID() {
+        return movieID;
     }
 
-    public void setMovieid(Integer movieid) {
-        this.movieid = movieid;
+    public void setMovieID(Integer movieID) {
+        this.movieID = movieID;
     }
 
-    public Integer getStarlevel() {
-        return starlevel;
+    public Integer getStarLevel() {
+        return starLevel;
     }
 
-    public void setStarlevel(Integer starlevel) {
-        this.starlevel = starlevel;
+    public void setStarLevel(Integer starLevel) {
+        this.starLevel = starLevel;
     }
 
     public String getDevice() {
@@ -61,35 +62,35 @@ public class Comment {
         this.device = device == null ? null : device.trim();
     }
 
-    public Date getCommenttime() {
-        return commenttime;
+    public Date getCommentTime() {
+        return commentTime;
     }
 
-    public void setCommenttime(Date commenttime) {
-        this.commenttime = commenttime;
+    public void setCommentTime(Date commentTime) {
+        this.commentTime = commentTime;
     }
 
-    public String getViewstatus() {
-        return viewstatus;
+    public String getViewStatus() {
+        return viewStatus;
     }
 
-    public void setViewstatus(String viewstatus) {
-        this.viewstatus = viewstatus == null ? null : viewstatus.trim();
+    public void setViewStatus(String viewStatus) {
+        this.viewStatus = viewStatus == null ? null : viewStatus.trim();
     }
 
-    public Integer getUsefulnumber() {
-        return usefulnumber;
+    public Integer getUsefulNumber() {
+        return usefulNumber;
     }
 
-    public void setUsefulnumber(Integer usefulnumber) {
-        this.usefulnumber = usefulnumber;
+    public void setUsefulNumber(Integer usefulNumber) {
+        this.usefulNumber = usefulNumber;
     }
 
-    public String getCommentcontent() {
-        return commentcontent;
+    public String getCommentContent() {
+        return commentContent;
     }
 
-    public void setCommentcontent(String commentcontent) {
-        this.commentcontent = commentcontent == null ? null : commentcontent.trim();
+    public void setCommentContent(String commentContent) {
+        this.commentContent = commentContent == null ? null : commentContent.trim();
     }
 }

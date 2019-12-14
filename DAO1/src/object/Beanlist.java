@@ -1,33 +1,33 @@
 package object;
 
-public class Beanlist {
+public class BeanList {
     private Integer beanListID;
 
     private String beanListName;
 
     private Integer userID;
 
-    public Integer getBeanlistid() {
+    public Integer getBeanListID() {
         return beanListID;
     }
 
-    public void setBeanlistid(Integer beanlistid) {
-        this.beanListID = beanlistid;
+    public void setBeanListID(Integer beanListID) {
+        this.beanListID = beanListID;
     }
 
-    public String getBeanlistname() {
+    public String getBeanListName() {
         return beanListName;
     }
 
-    public void setBeanlistname(String beanlistname) {
-        this.beanListName = beanlistname == null ? null : beanlistname.trim();
+    public void setBeanListName(String beanListName) {
+        this.beanListName = beanListName == null ? null : beanListName.trim();
     }
 
-    public Integer getUserid() {
+    public Integer getUserID() {
         return userID;
     }
 
-    public void setUserid(Integer userid) {
-        this.userID = userid;
+    public void setUserID(Integer userID) {
+        this.userID = userID;
     }
 }

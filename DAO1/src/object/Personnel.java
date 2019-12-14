@@ -1,9 +1,9 @@
 package object;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class Personnel {
-    private Integer personnelid;
+    private Integer personnelID;
 
     private Date birthday;
 
@@ -13,14 +13,14 @@ public class Personnel {
 
     private String nationality;
 
-    private String personnelname;
+    private String personnelName;
 
-    public Integer getPersonnelid() {
-        return personnelid;
+    public Integer getPersonnelID() {
+        return personnelID;
     }
 
-    public void setPersonnelid(Integer personnelid) {
-        this.personnelid = personnelid;
+    public void setPersonnelID(Integer personnelID) {
+        this.personnelID = personnelID;
     }
 
     public Date getBirthday() {
@@ -55,11 +55,11 @@ public class Personnel {
         this.nationality = nationality == null ? null : nationality.trim();
     }
 
-    public String getPersonnelname() {
-        return personnelname;
+    public String getPersonnelName() {
+        return personnelName;
     }
 
-    public void setPersonnelname(String personnelname) {
-        this.personnelname = personnelname == null ? null : personnelname.trim();
+    public void setPersonnelName(String personnelName) {
+        this.personnelName = personnelName == null ? null : personnelName.trim();
     }
 }
